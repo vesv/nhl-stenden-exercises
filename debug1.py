@@ -8,7 +8,9 @@ def id_to_fruit(fruit_id: int, fruits: list[str]) -> str:
 name1 = id_to_fruit(1, ["apple", "orange", "melon", "kiwi", "strawberry"])
 name3 = id_to_fruit(3, ["apple", "orange", "melon", "kiwi", "strawberry"])
 name4 = id_to_fruit(4, ["apple", "orange", "melon", "kiwi", "strawberry"])
-print(name3)
+print(name1) #orange
+print(name3) #kiwi
+print(name4) #strawberry
 
 #There were 2 reasons for the error:
 #firstly, in the definition 'set' was written with a capital letter which is invalid
